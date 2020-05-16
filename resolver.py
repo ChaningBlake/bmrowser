@@ -1,3 +1,9 @@
-import socket
+#!/usr/bin/env python3
+import requests
 
-print(socket.gethostbyname('maxbehling.xyz')) # your os sends out a dns query
+def get_html(url):
+    try:
+        html = requests.get(url)
+        return html.content
+    except:
+        print("Invalid Url")
