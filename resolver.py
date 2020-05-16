@@ -2,5 +2,8 @@
 import requests
 
 def get_html(url):
-    html = requests.get(url)
-    print(html.content)
+    try:
+        html = requests.get(url)
+        return html.content
+    except:
+        print("Invalid Url")
