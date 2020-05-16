@@ -1,0 +1,50 @@
+Task            |           Library/Program to use
+==================================================
+DNS resolver                    just need c/c++ standard library
+(turn domain into ip)
+
+HTTP requester                  libcurl
+(ask ip for raw html text)
+
+Basic GUI setup                 GUI manager library
+(draw window where page         like qt5, gtk3, tkinter, etc.
+    will be displayed)
+
+HTML Parser                     Probably have to write one,
+(turn html string into          I think this part is where the
+    pretty picture)             meat is...
+
+Display parsed webpage          GUI manager /  HTML parser 
+(put things on gui window
+    wherever html parser
+    says to put them)
+
+Hyperlinks                      GUI manager
+(probably easy to do,
+    just update page
+    when link is clicked)
+
+Images/Videos/iFrames           GUI manager
+(I assume our parser will have
+    started by just displaying
+    text)
+
+
+------------------------------------------------------
+ADVANCED STUFF
+------------------------------------------------------
+
+Resizable GUI window
+(i think it will be MUCH easier
+    to write a parser if we assume some
+    fixed pixel width/height, but obviously
+    that would be a pretty SHITE browser)
+
+HTTP POST request
+(send data back to
+    web server)
+
+Javascript
+(this one prolly not gonna happen lol)
+
+
