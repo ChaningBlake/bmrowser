@@ -1,12 +1,25 @@
 #!/usr/bin/env python3
 
-class Node(self):
+
+class Tag(self):
     def __init__(self):
-        self.tag = None
+        self.type = None
         self.text = None
         self.attributes = {}
         self.children = []
 
-def parse(html_string):
 
-    return
+
+ROOT = Node("html", "asdf", {}, [])
+
+
+
+def tokenizeRawHTML(raw):
+    return 
+
+
+
+    
+
+
+
