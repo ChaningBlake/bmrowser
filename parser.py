@@ -2,9 +2,10 @@
 
 class Node(self):
     def __init__(self):
-        self.data = None
-        self.left = None
-        self.right = None
+        self.tag = None
+        self.text = None
+        self.attributes = {}
+        self.children = []
 
 def parse(html_string):
 
